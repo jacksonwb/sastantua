@@ -1,7 +1,7 @@
 # sastantua @ 42
 
 This code was written just for the hell of it! It has no purpose!
-Generate an infinitely growing ASCII pyramid!
+Generate an infinitely growing ASCII pyramid! Or not!
 
 ## Compiling
 Run `make`. An executable named `sastantua` will be generated.
