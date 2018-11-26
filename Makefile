@@ -6,7 +6,7 @@
 #    By: jackson <jbeall@student.42.us.org>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/24 20:44:47 by jackson           #+#    #+#              #
-#    Updated: 2018/11/24 20:51:57 by jackson          ###   ########.fr        #
+#    Updated: 2018/11/25 22:22:36 by jackson          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,5 +23,5 @@ all: $(NAME)
 clean:
 	@echo "cleaning..."
 	@rm -rf $(NAME)
-	@echo "binary removed!"
+	@echo "\033[92mbinary removed!\033[0m"
 re: clean all
